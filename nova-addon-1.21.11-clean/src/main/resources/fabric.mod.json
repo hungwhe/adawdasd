@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nova-addon",
+  "version": "${version}",
+  "name": "Nova Addon",
+  "description": "discord.gg/5vwsqV8MSa",
+  "authors": [
+    "N0V4"
+  ],
+  "environment": "client",
+  "icon": "icon.png",
+  "entrypoints": {
+    "meteor": [
+      "com.nova.addon.NovaAddon"
+    ]
+  },
+  "mixins": [
+    "nova-addon.mixins.json"
+  ],
+  "depends": {
+    "java": ">=21",
+    "minecraft": [
+      "${mc_version}"
+    ],
+    "meteor-client": "*"
+  }
+}

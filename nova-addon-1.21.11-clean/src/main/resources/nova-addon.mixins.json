@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.nova.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "KeyboardInputMixin",
+    "NClientPlayerEntityMixin",
+    "RotationMouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
